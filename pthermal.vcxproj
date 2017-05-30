@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9115108E-0181-450D-9238-B2862F5F26A1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>pthermal</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\projects\pthermal\pthermal\include;c:\projects\pthermal\libusb\include;c:\projects\pthermal\grgenerator\include;$(IncludePath)</IncludePath>
+    <SourcePath>c:\projects\pthermal\pthermal\source;$(SourcePath)</SourcePath>
+    <OutDir>c:\projects\pthermal\pthermal\\dll\win32\debug\</OutDir>
+    <IntDir>c:\projects\pthermal\pthermal\obj\</IntDir>
+    <LibraryPath>c:\projects\pthermal\libusb\lib;c:\projects\pthermal\grgenerator\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\projects\pthermal\pthermal\include;c:\projects\pthermal\libusb\include;c:\projects\pthermal\grgenerator\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\projects\pthermal\grgenerator\lib;c:\projects\pthermal\libusb\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>c:\projects\pthermal\pthermal\\dll\win32\release\</OutDir>
+    <IntDir>c:\projects\pthermal\pthermal\obj\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PTHERMAL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <CompileAsWinRT>false</CompileAsWinRT>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PTHERMAL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\projects\pthermal\libusb\include;C:\projects\pthermal\grgenerator\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PTHERMAL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PTHERMAL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pthermal\include\Bematech.h" />
+    <ClInclude Include="pthermal\include\Daruma.h" />
+    <ClInclude Include="pthermal\include\EnumeratorUniversalSerialBus.h" />
+    <ClInclude Include="pthermal\include\Epson.h" />
+    <ClInclude Include="pthermal\include\escbema.hpp" />
+    <ClInclude Include="pthermal\include\escpos.hpp" />
+    <ClInclude Include="pthermal\include\ExtensibleMarkupLanguage.hpp" />
+    <ClInclude Include="pthermal\include\GenerateTicketData.hpp" />
+    <ClInclude Include="pthermal\include\GenerateTicketDataEx.hpp" />
+    <ClInclude Include="pthermal\include\HKeyLocalMachine.h" />
+    <ClInclude Include="pthermal\include\HKeyLocalMachineSuccess.h" />
+    <ClInclude Include="pthermal\include\IDeviceContext.h" />
+    <ClInclude Include="pthermal\include\IDeviceContextEx.hpp" />
+    <ClInclude Include="pthermal\include\IEnumeratorUniversalSerialBus.h" />
+    <ClInclude Include="pthermal\include\IGenerateTicketData.h" />
+    <ClInclude Include="pthermal\include\IHKeyLocalMachine.h" />
+    <ClInclude Include="pthermal\include\IPrinterDevice.h" />
+    <ClInclude Include="pthermal\include\IQuickResponseCode.h" />
+    <ClInclude Include="pthermal\include\IRegisterEnumeratorKey.h" />
+    <ClInclude Include="pthermal\include\IRegisterEnumeratorValue.h" />
+    <ClInclude Include="pthermal\include\ISerialBus.h" />
+    <ClInclude Include="pthermal\include\IThermalPrinterDefs.hpp" />
+    <ClInclude Include="pthermal\include\IUniversalSerialBusDetails.h" />
+    <ClInclude Include="pthermal\include\IWcharToChar.h" />
+    <ClInclude Include="pthermal\include\javascriptobjectnotation.hpp" />
+    <ClInclude Include="pthermal\include\printcoupon.h" />
+    <ClInclude Include="pthermal\include\pthermal.hpp" />
+    <ClInclude Include="pthermal\include\QuickResponseCode.h" />
+    <ClInclude Include="pthermal\include\QuickResponseCodeGenerator.h" />
+    <ClInclude Include="pthermal\include\RegisterEnumeratorKey.h" />
+    <ClInclude Include="pthermal\include\RegisterEnumeratorValue.h" />
+    <ClInclude Include="pthermal\include\SerialBus.h" />
+    <ClInclude Include="pthermal\include\SerialBusEx.h" />
+    <ClInclude Include="pthermal\include\SerialBusWnd.h" />
+    <ClInclude Include="pthermal\include\stdafx.h" />
+    <ClInclude Include="pthermal\include\targetver.h" />
+    <ClInclude Include="pthermal\include\ThermalPrinter.h" />
+    <ClInclude Include="pthermal\include\UniversalSerialBusDetails.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pthermal\source\Bematech.cpp" />
+    <ClCompile Include="pthermal\source\Daruma.cpp" />
+    <ClCompile Include="pthermal\source\dllmain.cpp" />
+    <ClCompile Include="pthermal\source\EnumeratorUniversalSerialBus.cpp" />
+    <ClCompile Include="pthermal\source\Epson.cpp" />
+    <ClCompile Include="pthermal\source\ExtensibleMarkupLanguage.cpp" />
+    <ClCompile Include="pthermal\source\GenerateTicketData.cpp" />
+    <ClCompile Include="pthermal\source\GenerateTicketDataEx.cpp" />
+    <ClCompile Include="pthermal\source\HKeyLocalMachine.cpp" />
+    <ClCompile Include="pthermal\source\IDeviceContext.cpp" />
+    <ClCompile Include="pthermal\source\IDeviceContextEx.cpp" />
+    <ClCompile Include="pthermal\source\IEnumeratorUniversalSerialBus.cpp" />
+    <ClCompile Include="pthermal\source\IGenerateTicketData.cpp" />
+    <ClCompile Include="pthermal\source\IHKeyLocalMachine.cpp" />
+    <ClCompile Include="pthermal\source\iprinterdevice.cpp" />
+    <ClCompile Include="pthermal\source\IQuickResponseCode.cpp" />
+    <ClCompile Include="pthermal\source\IRegisterEnumeratorKey.cpp" />
+    <ClCompile Include="pthermal\source\IRegisterEnumeratorValue.cpp" />
+    <ClCompile Include="pthermal\source\ISerialBus.cpp" />
+    <ClCompile Include="pthermal\source\IThermalPrinterDefs.cpp" />
+    <ClCompile Include="pthermal\source\IUniversalSerialBusDetails.cpp" />
+    <ClCompile Include="pthermal\source\IWcharToChar.cpp" />
+    <ClCompile Include="pthermal\source\javascriptobjectnotation.cpp" />
+    <ClCompile Include="pthermal\source\printcoupon.cpp" />
+    <ClCompile Include="pthermal\source\pthermal.cpp" />
+    <ClCompile Include="pthermal\source\QuickResponseCode.cpp" />
+    <ClCompile Include="pthermal\source\QuickResponseCodeGenerator.cpp" />
+    <ClCompile Include="pthermal\source\RegisterEnumeratorKey.cpp" />
+    <ClCompile Include="pthermal\source\RegisterEnumeratorValue.cpp" />
+    <ClCompile Include="pthermal\source\SerialBus.cpp" />
+    <ClCompile Include="pthermal\source\SerialBusEx.cpp" />
+    <ClCompile Include="pthermal\source\SerialBusWnd.cpp" />
+    <ClCompile Include="pthermal\source\stdafx.cpp" />
+    <ClCompile Include="pthermal\source\ThermalPrinter.cpp" />
+    <ClCompile Include="pthermal\source\UniversalSerialBusDetails.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pthermal.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

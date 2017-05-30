@@ -1,0 +1,32 @@
+﻿Build started 18/07/2016 15:27:20.
+     1>Project "C:\projects\pthermal\pthermal-gui\pthermal-gui.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\5.7\msvc2013\include\QtCore /IC:\Qt\5.7\msvc2013\include\QtGui /IC:\Qt\5.7\msvc2013\include\QtSerialPort /IC:\Qt\5.7\msvc2013\include\QtWidgets /IC:\Qt\5.7\msvc2013\include\QtNetwork /IC:\Qt\5.7\msvc2013\include\QtPrintSupport /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_WIDGETS_LIB /D STDX_FRAME_X86_LIB /D QT_NETWORK_LIB /D QT_PRINTSUPPORT_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt PThermalGUINew.cpp
+         PThermalGUINew.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\stdx.frame.x86\x64\Debug\\pthermal-gui.exe" /NOLOGO qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5SerialPortd.lib Qt5Widgetsd.lib "stdxframex86x64-debug.lib" Qt5Networkd.lib Qt5PrintSupportd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\stdx.frame.x86\x64\Debug\pthermal-gui.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\stdx.frame.x86\x64\Debug\pthermal-gui.lib" /MACHINE:X64 "x64\Debug\pthermal-gui.res"
+         x64\Debug\moc_PThermalApp.obj
+         x64\Debug\moc_PThermalFrameWindow.obj
+         x64\Debug\qrc_pthermalgui.obj
+         x64\Debug\main.obj
+         x64\Debug\PThermalApp.obj
+         x64\Debug\PThermalFrameWindow.obj
+         x64\Debug\PThermalGUINew.obj
+            Creating library C:\projects\stdx.frame.x86\x64\Debug\pthermal-gui.lib and object C:\projects\stdx.frame.x86\x64\Debug\pthermal-gui.exp
+     1>PThermalGUINew.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl xml::ExtensibleMarkupLanguage::ExtensibleMarkupLanguage(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)" (__imp_??0ExtensibleMarkupLanguage@xml@@QEAA@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z) referenced in function "public: void __cdecl <lambda_51868fdc02ebe731048a59e020a49183>::operator()(class std::unicodestring const &)const " (??R<lambda_51868fdc02ebe731048a59e020a49183>@@QEBAXAEBVunicodestring@std@@@Z)
+     1>PThermalGUINew.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl xml::ExtensibleMarkupLanguage::~ExtensibleMarkupLanguage(void)" (__imp_??1ExtensibleMarkupLanguage@xml@@UEAA@XZ) referenced in function "public: virtual void * __cdecl xml::ExtensibleMarkupLanguage::`scalar deleting destructor'(unsigned int)" (??_GExtensibleMarkupLanguage@xml@@UEAAPEAXI@Z)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "protected: virtual struct tagVARIANT __cdecl xml::ExtensibleMarkupLanguage::Alloc(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)" (?Alloc@ExtensibleMarkupLanguage@xml@@MEAA?AUtagVARIANT@@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl xml::ExtensibleMarkupLanguage::Debug(void)" (?Debug@ExtensibleMarkupLanguage@xml@@UEAAXXZ)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl xml::ExtensibleMarkupLanguage::First(struct IXMLDOMNodeList *)" (?First@ExtensibleMarkupLanguage@xml@@MEAAXPEAUIXMLDOMNodeList@@@Z)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "protected: virtual class std::shared_ptr<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > __cdecl xml::ExtensibleMarkupLanguage::GetAttr(struct IXMLDOMNode *)" (?GetAttr@ExtensibleMarkupLanguage@xml@@MEAA?AV?$shared_ptr@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@PEAUIXMLDOMNode@@@Z)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl xml::ExtensibleMarkupLanguage::Load(void)" (?Load@ExtensibleMarkupLanguage@xml@@UEAAXXZ)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl xml::ExtensibleMarkupLanguage::Next(struct IXMLDOMNode *)" (?Next@ExtensibleMarkupLanguage@xml@@MEAAXPEAUIXMLDOMNode@@@Z)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl xml::ExtensibleMarkupLanguage::Parse(void)" (?Parse@ExtensibleMarkupLanguage@xml@@UEAAXXZ)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl xml::ExtensibleMarkupLanguage::SetVar(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,struct IXMLDOMNode *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const &)" (?SetVar@ExtensibleMarkupLanguage@xml@@MEAAXAEAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PEAUIXMLDOMNode@@AEBV34@@Z)
+     1>PThermalGUINew.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl xml::ExtensibleMarkupLanguage::Throw(long)" (?Throw@ExtensibleMarkupLanguage@xml@@MEAAXJ@Z)
+     1>C:\projects\stdx.frame.x86\x64\Debug\\pthermal-gui.exe : fatal error LNK1120: 11 unresolved externals
+     1>Done Building Project "C:\projects\pthermal\pthermal-gui\pthermal-gui.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.17

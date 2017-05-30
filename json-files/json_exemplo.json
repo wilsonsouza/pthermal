@@ -1,0 +1,53 @@
+{
+   "company_name": "Firewater Comércio de cachaça da boa LTDA",
+   "customer": {
+      "cnpj": "",
+      "cpf": "04305657716",
+      "email": "",
+      "name": "rodolfo"
+   },
+   "discount": 0,
+   "discount_type": "--",
+   "increment": 0,
+   "payments": [
+      {
+         "installment": 1,
+         "payment_method": "Dinheiro R$ 10,00",
+         "value_paid": 10,
+         "value_received": 10
+      },
+      {
+         "installment": 1,
+         "payment_method": "Dinheiro R$ 50,00",
+         "value_paid": 17,
+         "value_received": 50
+      }
+   ],
+   "products": [
+      {
+         "name": "Cachaça + remedio",
+         "options": [
+         ],
+         "price": 12,
+         "qty": 1
+      },
+      {
+         "name": "Agua",
+         "options": [
+         ],
+         "price": 5,
+         "product_variable": "500ml",
+         "qty": 1
+      },
+      {
+         "name": "Bife",
+         "options": [
+         ],
+         "price": 10,
+         "qty": 1
+      }
+   ],
+   "promotional_message": "",
+   "seller_name": "Trato Feito",
+   "user_name": "mussum"
+}

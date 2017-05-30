@@ -1,0 +1,22 @@
+Atualização e correções de bugs.
+	GenerateTicketDataEx classe
+	Correções de vazamento de memoria na geração da data.
+	Correção da formatação de campos númericos.
+
+	ThermalPrinter classe
+	Correção no tipo de conversão para classe IDeviceContextEx.
+
+	IDeviceContextEx classe
+	Correção interna de ponteiro.
+
+	IDeviceContext classe
+	Correção de verificação no tipo parametro recebido da classe ThermalPrinter.
+
+	ExtenderMarketLanguage classe
+	Adicionado verificação de lista de produtos e validação do item.
+
+	JavascriptLanguageNotation classe
+	Correção do tipo para campo de valor, de unsigned long para double.
+
+	GenerateTicketData classe
+	Correção do metodo GetPDV com vazamento de memoria nos campos de wsprintf alterado para swprintf.

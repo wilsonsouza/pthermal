@@ -1,0 +1,29 @@
+﻿Build started 30/06/2016 15:04:45.
+     1>Project "C:\projects\pthermal\pthermal-gui\pthermal-gui.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing PThermalFrameWindow.h...
+         Moc'ing PThermalApp.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\5.7\msvc2013\include\QtCore /IC:\Qt\5.7\msvc2013\include\QtGui /IC:\Qt\5.7\msvc2013\include\QtSerialPort /IC:\Qt\5.7\msvc2013\include\QtWidgets /IC:\Qt\5.7\msvc2013\include\QtNetwork /IC:\Qt\5.7\msvc2013\include\QtPrintSupport /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_WIDGETS_LIB /D STDX_FRAME_X86_LIB /D QT_NETWORK_LIB /D QT_PRINTSUPPORT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_PThermalApp.cpp GeneratedFiles\Debug\moc_PThermalFrameWindow.cpp main.cpp PThermalApp.cpp PThermalFrameWindow.cpp
+         moc_PThermalApp.cpp
+         moc_PThermalFrameWindow.cpp
+         main.cpp
+         PThermalApp.cpp
+         PThermalFrameWindow.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\5.7\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\5.7\msvc2013\include\QtCore /IC:\Qt\5.7\msvc2013\include\QtGui /IC:\Qt\5.7\msvc2013\include\QtSerialPort /IC:\Qt\5.7\msvc2013\include\QtWidgets /IC:\Qt\5.7\msvc2013\include\QtNetwork /IC:\Qt\5.7\msvc2013\include\QtPrintSupport /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_WIDGETS_LIB /D STDX_FRAME_X86_LIB /D QT_NETWORK_LIB /D QT_PRINTSUPPORT_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_pthermalgui.cpp
+         qrc_pthermalgui.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\projects\stdx.frame.x86\Win32\Debug\\pthermal-gui.exe" /NOLOGO /LIBPATH:C:\Qt\5.7\msvc2013\lib /LIBPATH:\dmd2\\windows\lib32mscoff qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5SerialPortd.lib Qt5Widgetsd.lib "stdxframex86x64-debug.lib" Qt5Networkd.lib Qt5PrintSupportd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\stdx.frame.x86\Win32\Debug\pthermal-gui.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\stdx.frame.x86\Win32\Debug\pthermal-gui.lib" /MACHINE:X64 /SAFESEH "Debug\pthermal-gui.res"
+         Debug\moc_PThermalApp.obj
+         Debug\moc_PThermalFrameWindow.obj
+         Debug\qrc_pthermalgui.obj
+         Debug\main.obj
+         Debug\PThermalApp.obj
+         Debug\PThermalFrameWindow.obj
+     1>Debug\moc_PThermalApp.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\projects\pthermal\pthermal-gui\pthermal-gui.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:18.48

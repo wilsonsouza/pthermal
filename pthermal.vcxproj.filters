@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pthermal\include\Bematech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\Daruma.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\EnumeratorUniversalSerialBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\Epson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\escbema.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\escpos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\ExtensibleMarkupLanguage.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\GenerateTicketData.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\HKeyLocalMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\HKeyLocalMachineSuccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IDeviceContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IEnumeratorUniversalSerialBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IGenerateTicketData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IHKeyLocalMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IPrinterDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IQuickResponseCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IRegisterEnumeratorKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IRegisterEnumeratorValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\ISerialBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IThermalPrinterDefs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IUniversalSerialBusDetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IWcharToChar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\pthermal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\QuickResponseCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\QuickResponseCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\RegisterEnumeratorKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\RegisterEnumeratorValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\SerialBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\SerialBusEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\SerialBusWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\ThermalPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\UniversalSerialBusDetails.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\printcoupon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\javascriptobjectnotation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\GenerateTicketDataEx.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pthermal\include\IDeviceContextEx.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pthermal\source\Bematech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\Daruma.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\EnumeratorUniversalSerialBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\Epson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\ExtensibleMarkupLanguage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\GenerateTicketData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\HKeyLocalMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IDeviceContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IEnumeratorUniversalSerialBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IGenerateTicketData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IHKeyLocalMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\iprinterdevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IQuickResponseCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IRegisterEnumeratorKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IRegisterEnumeratorValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\ISerialBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IThermalPrinterDefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IUniversalSerialBusDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IWcharToChar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\pthermal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\QuickResponseCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\QuickResponseCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\RegisterEnumeratorKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\RegisterEnumeratorValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\SerialBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\SerialBusEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\SerialBusWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\ThermalPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\UniversalSerialBusDetails.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\printcoupon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\javascriptobjectnotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\GenerateTicketDataEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pthermal\source\IDeviceContextEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pthermal.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

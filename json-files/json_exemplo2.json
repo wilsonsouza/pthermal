@@ -1,0 +1,32 @@
+{
+   "company_name": "Firewater Comércio de cachaça da boa LTDA",
+   "customer": {
+      "cnpj": "",
+      "cpf": "000000000",
+      "email": "",
+      "name": "Avulso"
+   },
+   "discount": 0,
+   "discount_type": "--",
+   "increment": 0,
+   "payments": [
+      {
+         "installment": 1,
+         "payment_method": "Voucher R$ 12,00",
+         "value_paid": 12,
+         "value_received": 12
+      }
+   ],
+   "products": [
+      {
+         "name": "Cachaça + remedio",
+         "options": [
+         ],
+         "price": 12,
+         "qty": 1
+      }
+   ],
+   "promotional_message": "",
+   "seller_name": "",
+   "user_name": "mussum"
+}

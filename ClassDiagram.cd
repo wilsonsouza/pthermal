@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="bematech::Bematech" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAACpAAAABAAABAEEAAAgCAAAAAAAACAAAA=</HashCode>
+      <FileName>Bematech.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="device::IDeviceContext" Collapsed="true">
+    <Position X="8.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIRAAAACABAAKAAgAIAAAAAAAAABAEACAgiAEAiEAAA=</HashCode>
+      <FileName>IDeviceContext.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="device::IPrinterDevice" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAApAAAAABAABAEBAAAAAABAAAACACAAAA=</HashCode>
+      <FileName>IPrinterDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="daruma::Daruma" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAApAAAAAAAABAEAAACAAAAABAAAACAAAA=</HashCode>
+      <FileName>Daruma.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::EnumeratorUniversalSerialBus" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAYAAAAAAAAAAAAAAAAAQAAAAABAAQEA=</HashCode>
+      <FileName>EnumeratorUniversalSerialBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::HKeyLocalMachine" Collapsed="true">
+    <Position X="0.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>HKeyLocalMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::IHKeyLocalMachine" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHKeyLocalMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::IRegisterEnumeratorKey" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>JIoaIAEBAAAAAAAAAAAQEAAAABAQAIAQAgAACAgAAAg=</HashCode>
+      <FileName>IRegisterEnumeratorKey.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::IEnumeratorUniversalSerialBus" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAAAAYAAgAAIAAgAAAAAgAAQAAAAAAAAQAA=</HashCode>
+      <FileName>IEnumeratorUniversalSerialBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::IRegisterEnumeratorValue" Collapsed="true">
+    <Position X="10.5" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>IRegisterEnumeratorValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::RegisterEnumeratorKey" Collapsed="true">
+    <Position X="8.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAEAAAAACAAAAAAAAAAAABAAAAAAAAAAAAAIAAg=</HashCode>
+      <FileName>RegisterEnumeratorKey.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="reg::RegisterEnumeratorValue" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>RegisterEnumeratorValue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="epson::Epson" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAQAAApAAAAAAAABAEAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Epson.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pthermal::GenerateTicketData" Collapsed="true">
+    <Position X="6" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAQgBAAABAAAABBAAEQAAEAAAAAAgAAQBAgkAAABEAA=</HashCode>
+      <FileName>GenerateTicketData.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pthermal::IGenerateTicketData" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>kAQiBAAABAAACBIAAEQAAECAAAAAgAAABAgEAAABkAA=</HashCode>
+      <FileName>IGenerateTicketData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pthermal::ThermalPrinter" Collapsed="true">
+    <Position X="9" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgEAAAAQAAgAAAAAQQABCAAAAAkAAIA=</HashCode>
+      <FileName>thermalprinter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="qr::IQuickResponseCode" Collapsed="true">
+    <Position X="7" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAASAAAAAEAAAACIAgIAgIAAAAAAABAA=</HashCode>
+      <FileName>IQuickResponseCode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="qr::QuickResponseCode" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAAAAAoAAEAEAAAAAQCAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickResponseCode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="qr::QuickResponseCodeGenerator" Collapsed="true">
+    <Position X="5.5" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAAAgAAAAAAQ=</HashCode>
+      <FileName>QuickResponseCodeGenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usbcom::ISerialBus" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAgCwBCBAQKEQBABAFYBAiBAhgQgAAIAYUAAGEAwA=</HashCode>
+      <FileName>ISerialBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usbcom::SerialBus" Collapsed="true">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAgAgBCBAQKAQDAAAFYBAgBAggAgAAIAIAAAGAB4A=</HashCode>
+      <FileName>SerialBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usbcom::SerialBusEx" Collapsed="true">
+    <Position X="3.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAIAAAAEAAAAgAAAAEAwAAAAAAAACAhAA=</HashCode>
+      <FileName>SerialBusEx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usbcom::SerialBusWnd" Collapsed="true">
+    <Position X="3.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAIAAAAEAAABAAAAIQABAAAAAIAACAAAA=</HashCode>
+      <FileName>SerialBusWnd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::IWcharToChar" Collapsed="true">
+    <Position X="0.75" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>IWcharToChar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::IByteToWchar" Collapsed="true">
+    <Position X="0.5" Y="20.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>IWcharToChar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::IWcharToByte" Collapsed="true">
+    <Position X="0.75" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>IWcharToChar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usb::IUniversalSerialBusDetails" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAABAAAAAACAAAAAAAAAAEAA=</HashCode>
+      <FileName>IUniversalSerialBusDetails.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usb::UniversalSerialBusDetails" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAAAgAAAAAAAEAAAAAAAAACAAEgAAAAEQA=</HashCode>
+      <FileName>UniversalSerialBusDetails.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="xml::ExtensibleMarkupLanguage" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAggAAAIAAACYAAACAAAAgAAAgAAIAAAQAAEQAIAAQ=</HashCode>
+      <FileName>ExtensibleMarkupLanguage.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="reg::HKeyLocalMachineSuccess" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQ=</HashCode>
+      <FileName>HKeyLocalMachineSuccess.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::IThermalPrinterDefs" Collapsed="true">
+    <Position X="9" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAACAAAAAA=</HashCode>
+      <FileName>ithermalprinterdefs.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::THERMAL_PRINTER_ID" Collapsed="true">
+    <Position X="5.25" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::IThermalPrinterNames" Collapsed="true">
+    <Position X="3" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AFAAgQAAABAABAAgAkAAAAQKAggggAAACABgAEAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::ITicketDataField" Collapsed="true">
+    <Position X="5.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAgAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::ITicketData" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAEBAQAIAEAAAAIQAEAAAQAAAAAABAAAAYAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::ImageBits" Collapsed="true">
+    <Position X="3" Y="14.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAIAAAAoAAAQAAgAACAAIAAAAACgAAAACAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::IUniversalSerialBusData" Collapsed="true">
+    <Position X="3" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BCIAAAECAIGAAAAgAAAIAAABAABA4gAgAAAQCAIEAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="pthermal::CFe" Collapsed="true">
+    <Position X="1" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAIAAAQAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qr::QuickResponseCodeData" Collapsed="true">
+    <Position X="5.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAQQAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IQuickResponseCode.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qr::QuickResponseCodeDetails" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAACEAAAAAA=</HashCode>
+      <FileName>IQuickResponseCode.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml::ExtensibleMarkupLanguageData" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ExtensibleMarkupLanguage.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="bematech::LPBematech" Collapsed="true">
+    <Position X="3" Y="19" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bematech.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="daruma::LPDaruma" Collapsed="true">
+    <Position X="5.75" Y="22.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Daruma.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="epson::LPEpson" Collapsed="true">
+    <Position X="5.75" Y="23.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Epson.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPGenerateTicketData" Collapsed="true">
+    <Position X="0.5" Y="28" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GenerateTicketData.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="device::LPIDeviceContext" Collapsed="true">
+    <Position X="5.75" Y="25.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDeviceContext.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="reg::DebugMapper" Collapsed="true">
+    <Position X="3" Y="16" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IEnumeratorUniversalSerialBus.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qr::LPQuickResponseCodeDetails" Collapsed="true">
+    <Position X="0.5" Y="30.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IQuickResponseCode.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="std::WideChar" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWcharToChar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="std::ByteWide" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWcharToChar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="std::WideByte" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWcharToChar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPThermalPrinter" Collapsed="true">
+    <Position X="5" Y="28" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>thermalprinter.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="usb::UniversalSerialBusQueue" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUniversalSerialBusDetails.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPTHERMALPRINTERID" Collapsed="true">
+    <Position X="3.5" Y="29.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPDocInfo" Collapsed="true">
+    <Position X="5.75" Y="22" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPFonts" Collapsed="true">
+    <Position X="0.5" Y="27.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::Fonts" Collapsed="true">
+    <Position X="6" Y="28.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPDeviceMode" Collapsed="true">
+    <Position X="0.5" Y="22.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPIThermalPrinterNames" Collapsed="true">
+    <Position X="3" Y="16.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPITicketDataField" Collapsed="true">
+    <Position X="5.75" Y="24.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPITicketData" Collapsed="true">
+    <Position X="3" Y="18.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPITicketDataFieldQueue" Collapsed="true">
+    <Position X="0.5" Y="28.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPImageBits" Collapsed="true">
+    <Position X="3" Y="19.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPIUniversalSerialBusData" Collapsed="true">
+    <Position X="0.5" Y="23.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPXMLCFeData" Collapsed="true">
+    <Position X="0.5" Y="22" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPWideString" Collapsed="true">
+    <Position X="3" Y="20.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPAnsiString" Collapsed="true">
+    <Position X="5.75" Y="25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPByteString" Collapsed="true">
+    <Position X="0.5" Y="24.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthermal::LPByte" Collapsed="true">
+    <Position X="3" Y="17.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="std::ustring" Collapsed="true">
+    <Position X="0.5" Y="29.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pthermal.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qr::LPQuickResponseCode" Collapsed="true">
+    <Position X="0.5" Y="25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickResponseCode.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qr::LPQuickResponseCodeGenerator" Collapsed="true">
+    <Position X="0.5" Y="26.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuickResponseCodeGenerator.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="usbcom::LPSerialBus" Collapsed="true">
+    <Position X="4.25" Y="27.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SerialBus.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="usb::LPUniversalSerialBusDetails" Collapsed="true">
+    <Position X="0.5" Y="21.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UniversalSerialBusDetails.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="xml::LPExtensibleMarkupLanguage" Collapsed="true">
+    <Position X="0.5" Y="25.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExtensibleMarkupLanguage.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="reg::__unnamed_enum_0010_1" Collapsed="true">
+    <Position X="3" Y="15.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>HKeyLocalMachineSuccess.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
